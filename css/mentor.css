@@ -316,16 +316,17 @@ height: 100%;
     }
     .header .navbar ul li{
         display:block;
-        margin-left: 20px;
-        margin-top: 10px;
+        margin: 10px 0 0;
         border-bottom: 1px solid #333;
-       
-    }
-    .header .navbar ul li {
         font-size: 15px;
         font-weight: normal;
-        padding: 5px;
+        padding: 5px 0;
+       
     }
+    .header .navbar ul li:last-of-type{
+        border-bottom: none;
+    }
+    
     .header .navbar i{
         display: block;
         float: right;
@@ -452,6 +453,7 @@ height: 100%;
 @media(max-width:482px){
     .wrapper{
         max-width: 482px;
+        height: 500px !important;
     }
  
     .header .navbar .immersive {
